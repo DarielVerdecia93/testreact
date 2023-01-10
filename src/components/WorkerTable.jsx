@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {DatePicker, Table} from 'antd'
+import {Input, Table} from 'antd'
 
 
 export default function Worker() {
@@ -49,7 +49,14 @@ export default function Worker() {
         <>
             <div>
                 <h1>Workers</h1>
-                <DatePicker.RangePicker> </DatePicker.RangePicker>
+                <Input.Search placeholder='Buscar'
+                              style={{marginBottom: 10}}
+                              onSearch={value => setSearchText(value)}
+                              onChange={(e) => {
+                                setSearchText(e.target.value);
+                              }
+                              }
+                />
                 <Table dataSource={dataSource} columns={columns}/>
             </div>
         </>

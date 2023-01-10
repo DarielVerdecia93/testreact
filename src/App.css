@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+.logo{
+  width: auto;
+    max-height: 100%;
+}
+
+
+
+.content-home{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.ant-input-wrapper ant-input-group css-dev-only-do-not-override-k83k30{
+  padding-right: 900px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +50,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#prueba {
+  text-align: center;
 }
