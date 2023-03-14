@@ -3,7 +3,7 @@ import {DatePicker, Table} from 'antd'
 
 
 export default function Worker() {
-    const [searchText, setSearchText] = useState("");
+    const [searchText] = useState("");
     const dataSource = [
         {
             key: '1',

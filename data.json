@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "ID": 1,
+      "Date": "2022-12-31T00:00:00",
+      "Unity": "U",
+      "Name": "Grapas largas",
+      "Price": 0.04819,
+      "Count": 500.0
+    },
+    {
+      "ID": 2,
+      "Date": "2022-12-31T00:00:00",
+      "Unity": "U",
+      "Name": "Botas",
+      "Price": 0.04819,
+      "Count": 500.0
+    },
+    {
+      "ID": 3,
+      "Date": "2022-12-31T00:00:00",
+      "Unity": "U",
+      "Name": "Guantes",
+      "Price": 0.04819,
+      "Count": 500.0
+    }
+  ]
+}

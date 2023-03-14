@@ -5,7 +5,6 @@ import Worker from "./Worker";
 import WorkerReport from "./components/WorkerReport";
 import {HomeFilled, LoginOutlined} from "@ant-design/icons";
 import React, {useState} from 'react';
-import logoSite from './images/logo_ranchovega.png';
 
 const {Header, Footer, Sider} = Layout;
 
@@ -28,15 +27,7 @@ function App() {
                             console.log(collapsed, type);
                         }}>
 
-                        <div className="logo">
-                            <img src={logoSite} style={{}}></img> 
-                             </div>
-                        <div style={{marginBlock: 64}}>
-
-
-                        </div>
-
-
+                        
                         <Menu
                             mode="inline"
                             onClick={({key}) => {
